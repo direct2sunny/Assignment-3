@@ -1,3 +1,15 @@
 **Objective**
 
 The objective of designing and implementing a Vehicle Rental Management System with an object-oriented approach serves multiple educational and practical purposes. By working on this project, you will gain hands-on experience with key object-oriented programming (OOP) principles such as inheritance, abstraction, and encapsulation, which are fundamental to developing well-structured, reusable, and scalable software.
+
+**Vehicle Class**
+
+The Vehicle class presented in your code is an abstract class designed to model the essential characteristics and behaviors of a vehicle within the context of a rental system. Being an abstract class means it cannot be instantiated on its own but can serve as a base class for more specific types of vehicles (such as cars, bikes, or trucks). Here are the key components and their purposes:
+
+**(A) Field:** The class has four private fields: model (vehicle model), manufacturer (vehicle maker), year (manufacture year), and rentalPrice (rental cost).
+
+**(B) Properties:** Each private field has a public property (Model, Manufacturer, Year, RentalPrice) with get and set accessors, enabling controlled access and encapsulation.
+
+**(C) Constructor:** The constructor initializes a Vehicle instance with specified values for model, manufacturer, year, and rental price, ensuring complete information upon creation.
+
+**(D) Method:** DisplayDetails() is a virtual method that prints vehicle details and can be overridden for customized behavior in derived classes.
