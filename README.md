@@ -13,3 +13,7 @@ The Vehicle class presented in your code is an abstract class designed to model 
 **(C) Constructor:** The constructor initializes a Vehicle instance with specified values for model, manufacturer, year, and rental price, ensuring complete information upon creation.
 
 **(D) Method:** DisplayDetails() is a virtual method that prints vehicle details and can be overridden for customized behavior in derived classes.
+
+**Car Class**
+
+The Car class extends the Vehicle base class, adding properties relevant to cars such as Seats, EngineType, Transmission, and Convertible. Its constructor initializes both inherited and car-specific properties. It overrides the DisplayDetails() method to display vehicle details alongside car-specific attributes, demonstrating enhanced functionality and polymorphism.
