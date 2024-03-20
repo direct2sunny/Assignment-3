@@ -17,3 +17,7 @@ The Vehicle class presented in your code is an abstract class designed to model 
 **Car Class**
 
 The Car class extends the Vehicle base class, adding properties relevant to cars such as Seats, EngineType, Transmission, and Convertible. Its constructor initializes both inherited and car-specific properties. It overrides the DisplayDetails() method to display vehicle details alongside car-specific attributes, demonstrating enhanced functionality and polymorphism.
+
+**Truck Class**
+
+The provided C# code defines a Truck class that inherits from a Vehicle class, adding truck-specific properties such as Capacity, TruckType, and FourWheelDrive. It includes a constructor that initializes these properties along with those inherited from Vehicle. The DisplayDetails method is overridden to include truck-specific details when displaying the vehicle's information. This implementation demonstrates key object-oriented programming concepts like inheritance, polymorphism, and encapsulation.
