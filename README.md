@@ -21,3 +21,7 @@ The Car class extends the Vehicle base class, adding properties relevant to cars
 **Truck Class**
 
 The provided C# code defines a Truck class that inherits from a Vehicle class, adding truck-specific properties such as Capacity, TruckType, and FourWheelDrive. It includes a constructor that initializes these properties along with those inherited from Vehicle. The DisplayDetails method is overridden to include truck-specific details when displaying the vehicle's information. This implementation demonstrates key object-oriented programming concepts like inheritance, polymorphism, and encapsulation.
+
+**Motorcycle Class**
+
+The provided C# code defines a Motorcycle class as a subclass of Vehicle, adding motorcycle-specific properties: EngineCapacity, FuelType, and HasFairing. The constructor initializes these properties alongside inherited ones. The DisplayDetails method extends the base functionality to include motorcycle-specific details like engine capacity, fuel type, and fairing presence, showcasing polymorphism by overriding the base class's method.
