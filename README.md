@@ -25,3 +25,7 @@ The provided C# code defines a Truck class that inherits from a Vehicle class, a
 **Motorcycle Class**
 
 The provided C# code defines a Motorcycle class as a subclass of Vehicle, adding motorcycle-specific properties: EngineCapacity, FuelType, and HasFairing. The constructor initializes these properties alongside inherited ones. The DisplayDetails method extends the base functionality to include motorcycle-specific details like engine capacity, fuel type, and fairing presence, showcasing polymorphism by overriding the base class's method.
+
+**Rental Agency**
+
+The RentalAgency class manages a vehicle rental agency's fleet and revenue. It allows adding and removing vehicles from the fleet, renting vehicles (which updates the total revenue), and displaying the fleet's details. Vehicles are managed through a list, and actions on these vehicles include checking for availability, updating revenue upon rental, and providing a summary of all vehicles in the fleet.
