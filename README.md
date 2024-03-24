@@ -38,6 +38,9 @@ Prints the total revenue generated from the vehicle rentals to the console.
 The main focus of this code snippet is to demonstrate basic object-oriented programming concepts such as class inheritance (assuming Car, Truck, and Motorcycle inherit from a common Vehicle class), encapsulation, and polymorphism. It shows how to manage a collection of objects (vehicles) through various operations like adding to a list, iterating over a list to display details, and modifying object properties (e.g., marking a vehicle as rented and updating revenue).
 
 
+**Screenshot**
+
+![Screenshot (10)](https://github.com/direct2sunny/Assignment-3/assets/156108180/6dccb609-07f7-4c58-9b9a-a9a619fe2a7c)
 
 
 
