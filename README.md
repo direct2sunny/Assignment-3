@@ -2,21 +2,22 @@
 
 The objective of designing and implementing a Vehicle Rental Management System with an object-oriented approach serves multiple educational and practical purposes. By working on this project, you will gain hands-on experience with key object-oriented programming (OOP) principles such as inheritance, abstraction, and encapsulation, which are fundamental to developing well-structured, reusable, and scalable software.
 
-**Vehicle Class**
+**Demonstrate the functionality of the classes**
 
-The Vehicle class presented in your code is an abstract class designed to model the essential characteristics and behaviors of a vehicle within the context of a rental system. Being an abstract class means it cannot be instantiated on its own but can serve as a base class for more specific types of vehicles (such as cars, bikes, or trucks). Here are the key components and their purposes:
+This C# code snippet is designed for a simple vehicle rental agency system. It outlines the creation and management of a fleet of vehicles, including cars, trucks, and motorcycles. Let's break down the components and functionalities of the program:
 
-**(A) Field:** The class has four private fields: model (vehicle model), manufacturer (vehicle maker), year (manufacture year), and rentalPrice (rental cost).
+**RentalAgency Class:**
 
-**(B) Properties:** Each private field has a public property (Model, Manufacturer, Year, RentalPrice) with get and set accessors, enabling controlled access and encapsulation.
+This class is assumed to manage a collection of vehicles (such as cars, trucks, and motorcycles) available for rent. It likely contains methods for adding vehicles to the agency's fleet, renting out vehicles, and displaying the current fleet. It also tracks the total revenue generated from renting vehicles.
 
-**(C) Constructor:** The constructor initializes a Vehicle instance with specified values for model, manufacturer, year, and rental price, ensuring complete information upon creation.
+**Vehicle Classes (Car, Truck, Motorcycle)**
 
-**(D) Method:** DisplayDetails() is a virtual method that prints vehicle details and can be overridden for customized behavior in derived classes.
+These classes represent different types of vehicles available for rent. Each class contains specific properties relevant to its type:
 
 **Car Class**
 
 The Car class extends the Vehicle base class, adding properties relevant to cars such as Seats, EngineType, Transmission, and Convertible. Its constructor initializes both inherited and car-specific properties. It overrides the DisplayDetails() method to display vehicle details alongside car-specific attributes, demonstrating enhanced functionality and polymorphism.
+
 
 **Truck Class**
 
@@ -26,6 +27,18 @@ The provided C# code defines a Truck class that inherits from a Vehicle class, a
 
 The provided C# code defines a Motorcycle class as a subclass of Vehicle, adding motorcycle-specific properties: EngineCapacity, FuelType, and HasFairing. The constructor initializes these properties alongside inherited ones. The DisplayDetails method extends the base functionality to include motorcycle-specific details like engine capacity, fuel type, and fairing presence, showcasing polymorphism by overriding the base class's method.
 
-**Rental Agency**
+**Main Method Workflow:**
 
-The RentalAgency class manages a vehicle rental agency's fleet and revenue. It allows adding and removing vehicles from the fleet, renting vehicles (which updates the total revenue), and displaying the fleet's details. Vehicles are managed through a list, and actions on these vehicles include checking for availability, updating revenue upon rental, and providing a summary of all vehicles in the fleet.
+Instantiates a RentalAgency object.
+Creates one of each vehicle type (Car, Truck, Motorcycle) with specific attributes.
+Adds these vehicles to the rental agency's fleet using the AddVehicle method.
+Calls the DisplayFleet method to list all vehicles currently available for rent.
+Rents out the Car object to a customer, which involves removing it from the available fleet and adding its rental price to the total revenue.
+Prints the total revenue generated from the vehicle rentals to the console.
+The main focus of this code snippet is to demonstrate basic object-oriented programming concepts such as class inheritance (assuming Car, Truck, and Motorcycle inherit from a common Vehicle class), encapsulation, and polymorphism. It shows how to manage a collection of objects (vehicles) through various operations like adding to a list, iterating over a list to display details, and modifying object properties (e.g., marking a vehicle as rented and updating revenue).
+
+
+
+
+
+
